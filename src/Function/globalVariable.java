@@ -1,5 +1,6 @@
 package Function;
 
+import Entity.Staff;
 import Entity.Student;
 import LinkedList.DoublyLinkList;
 import javafx.fxml.FXML;
@@ -7,6 +8,7 @@ import javafx.scene.Group;
 import javafx.scene.control.TableView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class globalVariable {
 
@@ -20,5 +22,12 @@ public class globalVariable {
     public static void refresh() {  //Refreshes the book in the bookList
 
     }
+
+    public static ArrayList<Staff> sortedStaffListASC = new ArrayList<>();
+    public static ArrayList<Staff> sortedStaffListDESC = new ArrayList<>();
+    public static ArrayList<Student> sortedStudentListASC = new ArrayList<>();
+    public static ArrayList<Student> sortedStudentListDESC = new ArrayList<>();
+
+
 
 }
